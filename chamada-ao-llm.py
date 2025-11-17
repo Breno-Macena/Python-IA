@@ -1,5 +1,4 @@
-# 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
-from openai import OpenAI
+from openai import OpenAI  # pyright: ignore[reportMissingImports]
 
 client = OpenAI(
     base_url="http://127.0.0.1:1234/v1",
